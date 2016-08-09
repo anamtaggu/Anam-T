@@ -110,15 +110,16 @@ public class LoginController {
 
 	 @RequestMapping(value = "/login", method = RequestMethod.POST)
 	    public String doLogin(@Valid @ModelAttribute("validate") Login validate,
-	            BindingResult result, Map<String, Object> model) {
+	            BindingResult result, Map<String, Object> model)
+	 		{
 	 
-	        if (result.hasErrors()) {
+	        if (result.hasErrors()) 
+	        {
 	            return "login";
 	        }
 	    	   
 	        return "login";
 	       
-	    }
+	 		}
+	}
 
-
-}

@@ -10,5 +10,15 @@ public class projController {
    
         return new ModelAndView("index");  
     } 
+	
+	@RequestMapping("/Megazine")
+	   public String Collection() {
+	      return "Megazine";
+	}
+	
+	@RequestMapping("/StudyMaterial")
+	   public String Study_Materials() {
+	      return "StudyMaterial";
+	}
 
 }

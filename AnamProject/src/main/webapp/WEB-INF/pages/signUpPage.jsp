@@ -1,12 +1,4 @@
-<%@ include file="header.jsp"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
+<%@ include file="header.jsp" %>
 <style>
 body{font-family: 'Ropa Sans', sans-serif; color:#666; font-size:14px; color:#333}
 li,ul,body,input{margin:0; padding:0; list-style:none}
@@ -82,6 +74,4 @@ li,ul,body,input{margin:0; padding:0; list-style:none}
 
 </div>
 	</section>
-
-</body>
-</html>
+	
