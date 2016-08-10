@@ -1,4 +1,5 @@
 <%@ include file="header.jsp"%>
+
 <body>
 <div class="container">
 	<br>
@@ -103,3 +104,7 @@
 
 </body>
 </html>
+<br>
+<br>
+<br>
+<%@ include file="footer.jsp"%>

@@ -46,3 +46,7 @@
 
 </body>
 </html>
+<br>
+<br>
+<br>
+<%@ include file="footer.jsp"%>
